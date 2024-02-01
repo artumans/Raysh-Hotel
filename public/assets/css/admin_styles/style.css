@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --color-text-black-1: #222221;
+    --color-text-black-2: #4D4D4C;
+    --color-text-black-3: #4C4B4A;
+
+    --color-text-orange-1: #E83317;
+    --color-text-orange-2: #e61f00;
+    
+    --color-bg-soft-green: #DFF0F0;
+    --color-bg-white: #F5F5F5;
+    --color-bg-true-white: #FFFFFF;
+    --color-bg-fas-white: #F9F9F9;
+
+
+    --font: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--color-bg-true-white);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.admin-nav {
+    height: 100%;
+}
+
+.menu-nav {
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: var(--color-text-black-2);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.menu-nav:hover {
+    cursor: pointer;
+    padding: 9px 9px;
+    border: 1px solid var(--color-text-orange-1);
+    color: var(--color-text-orange-1);
+}
+
+.menu-nav.active-menu, .menu-nav.active-menu:hover  {
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    padding: 10px 10px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.40);
+}
+
+.menu-nav-ic {
+    margin-right: 14px;
+    font-size: 17px;
+}
+
+/* .btn-profile {
+    color: var(--color-text-black-3);
+    background-color: var(--color-bg-true-white);
+    border: 1px solid var(--color-text-black-3);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-profile:hover {
+    color: var(--color-bg-true-white);
+    background-color: var(--color-text-black-3);
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+} */
+
+.main-content {
+    background-color: #eeeeee;
+}
+
+.reservation-tl-card {
+    background-color: var(--color-bg-true-white);
+    border: 1px solid var(--color-text-orange-1);
+}
+
+#scrollspace {
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#scrollspace::-webkit-scrollbar{
+    display: none;
+}
+
+.reservation-tl{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.reservation-tl::-webkit-scrollbar{
+    display: none;
+}

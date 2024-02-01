@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --color-text-black-1: #222221;
+    --color-text-black-2: #4D4D4C;
+    --color-text-black-3: #4C4B4A;
+
+    --color-text-orange-1: #E83317;
+    
+    --color-bg-soft-green: #DFF0F0;
+    --color-bg-white: #F5F5F5;
+    --color-bg-true-white: #FFFFFF;
+    --color-bg-fas-white: #F9F9F9;
+
+
+    --font: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--color-bg-white);
+}
+
+@media (min-width: 991.98px) {
+    main {
+      padding-left: 260px;
+      margin-top: 60px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+    }
+}
+  
+  /* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    padding: 120px 0 0; /* Height of navbar */
+    width: 240px;
+    z-index: 1;
+    background-color: var(--color-bg-soft-green);
+}
+  
+.sidebar .active  {
+    border-radius: 5px;
+}
+  
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+
+.list-item :hover {
+    background-color: var(--color-text-orange-1);
+}
+
+.list-group-item {
+    margin: 1.5rem 1rem 0 1rem;
+}
+
+.login-logout {
+    margin-top: 23rem;
+}
+
+

@@ -1,0 +1,465 @@
+/* HERO LANDING PAGE */
+#hero-background {
+    background-color: var(--color-bg-soft-green);
+    background-image: url('../img/bg-hero.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    height: 89vh;
+}
+
+.heading-hero {
+    font-size: 68px;
+    font-weight: 800;
+    height: calc(100vh - 67vh);
+    color: var(--color-text-black-2);
+}
+
+.tagline {
+    padding-top: 70px;
+}
+
+.hero-con {
+    position: relative;
+    z-index: 2;
+}
+
+.describe-hero {
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 400;
+    color: var(--color-text-black-2);
+}
+
+.text-block {
+    font-weight: 700;
+    color: var(--color-text-orange-1);
+}
+
+
+/* FORM HERO */
+/* END Form Check in out Hero */
+.form-con-hero {
+    background-color: var(--color-bg-true-white);
+    box-shadow: 0px 10px 50px rgba(35, 34, 33, 0.25);
+    margin-top: 5rem;
+}
+
+.label-hero {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-text-black-2);
+}
+
+.form-cek-in-out-hero {
+    background-color: var(--color-bg-true-white);
+    color: var(--color-text-black-2);
+    border: none;
+    padding: 0;
+    width: 140px;
+}
+
+
+.btn-cari-hero {
+    color: var(--color-bg-true-white);
+    font-size: 24px;
+    font-weight: 500;
+    background-color: var(--color-text-orange-1);
+    box-shadow: 0px 10px 50px rgba(35, 34, 33, 0.25);
+    border-radius: 0;
+}
+
+
+.btn-text-cari-hero, .btn-icons-cari-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-icons-cari-hero{
+    font-size: 24px;
+}
+
+:hover>.btn-cari-hero{
+    color: var(--color-text-orange-1);
+    background-color: var(--color-bg-soft-green);
+    font-weight: 700;
+    box-shadow: rgba(232, 51, 23, 0.804) 0px 10px 30px;
+}
+/* button chek in out hero */
+/* END FORM HERO */
+/* END HERO LANDING PAGE */
+
+
+/* CARD ROOMS */
+.heading-section-rooms {
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    color: var(--color-text-black-2);
+}
+
+.card-rooms {
+    border-radius: 0px;
+    background-color: var(--color-bg-true-white);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 10px 3px;
+    box-shadow: rgba(177, 177, 177, 0.1) 0px 4px 16px, rgba(81, 80, 80, 0.1) 0px 8px 24px, rgba(110, 110, 110, 0.1) 0px 16px 56px;
+    height: 100%;
+}
+
+.img-card {
+    background: url('../img/img-rooms.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card-heading {
+    display: flex;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: var(--color-text-black-2);
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--color-text-black-2);
+}
+
+.badge {
+    padding: 6px 10px 6px 10px;
+    border-radius: 0px;
+    color: var(--color-bg-true-white);
+}
+
+
+/* FITUR */
+.div-fasilitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.fasilitas {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: var(--color-bg-fas-white);
+    color: var(--color-text-black-2);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px;
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    gap: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-text-fas, .btn-icons-fas {
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-icons-fas{
+    font-size: 20px;
+}   
+
+.smoking-ic {
+    width: 21px;
+}
+/* END FITUR */
+
+
+.dv-info-pesan {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+.text-harga {
+    display:flex;
+    flex-wrap: wrap;
+    padding-inline: 0.5rem;
+}
+
+.rp {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-black-2);
+}
+
+.nilai-rp {
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-text-black-2);
+}
+
+.per-night {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: end;
+    color: var(--color-text-black-2);
+}
+
+.btn-pesan {
+    border-radius: 0;
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    justify-content: center;
+}
+
+.btn-text-pesan, .btn-icons-pesan {
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-icons-pesan{
+    font-size: 24px;
+}
+
+.btn-pesan:hover {
+    display: inline-flex;
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    box-shadow: rgba(232, 51, 23, 0.2) 0px 10px 50px;
+}
+/* END CARD ROOMS */
+
+
+
+
+/* FORM CHEK IN OUT */  
+.form-check-card-room {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-bg-true-white);
+}
+
+.label-and-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.label {
+    margin-right: 40px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: var(--color-text-black-2);
+}
+
+.check-in .check-out {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+.form-cek-in-out {
+    color: var(--color-text-black-2);
+    font-size: 16px;
+    font-weight: 500;
+    height: 41px;
+    background-color: var(--color-bg-true-white);
+    border-radius: 0px;
+    border: 0px;
+}
+
+.div-btn-card {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-cari {
+    width: 290px;
+    border-radius: 0px;
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 30px;
+
+}
+
+.btn-text-cari, .btn-icons-cari {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-icons-cari{
+    font-size: 24px;
+}
+
+:hover>.btn-cari {
+    padding: 8px 30px;
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    box-shadow: rgba(232, 51, 23, 0.55) 0px 10px 50px;
+}
+/* END CHEK IN OUT */
+
+
+
+
+
+/* Media Query - RWD */
+/* Mobile Phone */
+@media only screen and (max-width: 600px) {
+    #hero-background {
+        background-position: center bottom;
+    }
+
+    .heading-section-rooms {
+        margin-top: 100px;
+    }
+
+    .img-card {
+        height: 30vh;
+    }
+
+    .div-fasilitas {
+        margin-bottom: 15vh;
+    }
+
+    .text-harga {
+        width: 70%;
+    }
+
+    .btn-pesan {
+        width: 30%;
+    }
+
+    .describe-hero {
+        font-size: 0;
+    }
+
+    .heading-hero, .form-check-col-hero {
+        text-align: center;
+    }
+
+    .hero-con {
+        background: linear-gradient(to bottom, rgba(223, 240, 240, 1), rgba(255,255,255,0));
+    }
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-card {
+        height: 30vh;
+    }
+
+    .div-fasilitas {
+        margin-bottom: 20vh;
+    }
+
+    .text-harga {
+        width: 75%;
+    }
+
+    .btn-pesan {
+        width: 25%;
+    }
+
+    .hero-con {
+        background: linear-gradient(to bottom, rgba(223, 240, 240, 1), rgba(255,255,255,0));
+    }
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img-card {
+        background-position: center;
+        height: 60vh;
+    }
+
+    .div-fasilitas {
+        margin-bottom: 20vh;
+    }
+
+    .text-harga {
+        width: 75%;
+    }
+
+    .btn-pesan {
+        width: 25%;
+    }
+
+    .hero-con {
+        background: linear-gradient(to bottom, rgba(223, 240, 240, 1), rgba(255,255,255,0));
+    }
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img-card {
+        height: 40vh;
+    }
+    
+    .div-fasilitas {
+        margin-bottom: 20vh;
+    }
+
+    .text-harga {
+        width: 50%;
+    }
+
+    .btn-pesan {
+        width: 50%;
+    }
+    .hero-con {
+        background: linear-gradient(to bottom, rgba(223, 240, 240, 0), rgba(255,255,255,0));
+    }
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .text-harga {
+        width: 65%;
+    }
+
+    .btn-pesan {
+        width: 35%;
+    }
+
+    .hero-con {
+        background: linear-gradient(to bottom, rgba(223, 240, 240, 0), rgba(255,255,255,0));
+    }
+    
+}

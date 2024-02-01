@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --color-text-black-1: #222221;
+    --color-text-black-2: #4D4D4C;
+    --color-text-black-3: #4C4B4A;
+
+    --color-text-orange-1: #E83317;
+    
+    --color-bg-soft-green: #DFF0F0;
+    --color-bg-white: #F5F5F5;
+    --color-bg-true-white: #FFFFFF;
+    --color-bg-fas-white: #F9F9F9;
+
+
+    --font: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--color-bg-white);
+}
+
+.bg-image {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('../../img/bg-hero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+main {
+    width: 45%;
+}
+
+.form-card {
+    background-color: var(--color-bg-white);
+}
+
+.btn {
+    background-color: var(--color-text-orange-1);
+    color: var(--color-bg-true-white);
+    padding: 5px;
+    border: none;
+}
+
+.btn:hover {
+    color: var(--color-text-orange-1);
+    background-color: transparent;
+    padding: 4px;
+    border: 1px solid var(--color-text-orange-1);
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 85%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    main {
+        width: 85%;
+    }
+}
